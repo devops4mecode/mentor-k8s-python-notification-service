@@ -4,8 +4,8 @@ app.config['SECRET_KEY']='asdwefeqe1232143'
 
 from mailjet_rest import Client
 
-api_key = 'f7d4b98cd2bd603518e1ba92383f2d87'
-api_secret = 'fa3eb0d96cb9be8cebe77e493f3ab933'
+api_key = 'XXXXX'
+api_secret = 'XXX'
 mailjet = Client(auth=(api_key, api_secret), version='v3.1')
 
 @app.route('/service')
