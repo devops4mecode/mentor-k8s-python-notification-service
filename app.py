@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
 app = Flask(__name__)
-app.config['SECRET_KEY']='asdwefeqe1232143'
+app.config['SECRET_KEY']='XXXXX'
 
 from mailjet_rest import Client
 
